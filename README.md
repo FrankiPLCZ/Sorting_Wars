@@ -1,2 +1,38 @@
 # Sorting_Wars
-Sorting app for Windows with graphic representation of the process 
+Sorting app for Windows with graphic representation of the process.\
+It showcases
+### a type of Bubble sort:
+``    int n = arr.Length;``\
+``    int x = 0;``\
+``    for(int i = 0;i<n;i++)``\
+``        for(int j=0;j<n;j++)``\
+``            if (arr[j]>arr[i]){``\
+``                x = lista[j]``\
+``                lista[j] = lista[i]``\
+``                lista[i] = x``\
+``                }``
+### Selection Sort
+``        int n = arr.Length;``\
+``        for (int i = 0; i < n - 1; i++)``\
+``        {                             ``\
+``            int min_idx = i;``\
+``            for (int j = i + 1; j < n; j++)``\
+``                if (arr[j] < arr[min_idx])``\
+``                    min_idx = j;``\
+``                                          ``\
+``            int temp = arr[min_idx];``\
+``            arr[min_idx] = arr[i];``\
+``            arr[i] = temp;``\
+``       }``
+
+### Insertion Sort
+
+   
+
+
+
+### Created with 
+
+<img align="left" alt="C#" width="38px" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png" />
+<img align="left" alt="Unity" width="38px" src="https://brandslogos.com/wp-content/uploads/images/large/unity-logo.png" />
+
